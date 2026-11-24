@@ -1,0 +1,241 @@
+#index-photo {
+    background-image:url('../images/arrosage-hippodrome-exemple.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+    height:50vh;
+    
+    display:flex;
+    align-items:end;
+    
+    
+    position:relative;
+}
+
+#index-photo h1 {
+    background-color:rgba(255,255,255,0.8);
+    color:#000;
+    padding:5px 10px;
+    margin:0 0 20px 0;
+    font-size:30px;
+    display:inline-block;
+
+}
+
+#index-photo p {
+    color:#fff;
+    font-size:20px;
+}
+
+#index-presentation {
+
+    
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+#index-presentation-content {
+    
+    
+}
+
+#index-presentation-content p {
+
+}
+
+#index-prestations {
+    background-color:#eee;
+}
+
+#index-realisations-titre {
+    padding-top:28px;
+    padding-bottom:16px;
+    
+}
+
+#index-realisations {
+    padding:0;
+    height:50vh;
+}
+
+#index-realisations picture {
+    width:100%;
+    height:auto;
+}
+
+#index-realisations img {
+    width:100%;
+    height:50vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide_prestation {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+    height:250px;
+    position:relative;
+    
+    border-radius:6px;
+    
+    transition:0.5s ease-in all;
+    
+}
+
+.slide_prestation:hover {
+    background-size:102%;
+}
+
+#index-prestations h2 {
+    margin-bottom:16px;
+
+}
+.slide_prestation p {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:3px;
+    border-radius:0 0 5px 5px;
+    background-color:rgba(255,255,255,0.6);
+    color:#000;
+    text-align:center;
+}
+
+.slide_prestation:hover p {
+    background-color:rgba(255,255,255,0.8);
+}
+
+/* prestations v2*/
+
+#index-prestations_v2 {
+    background-color:#fafafa;
+}
+#index-prestations_v2 h2 {
+    margin-bottom:16px;
+
+}
+.slide_prestation_v2 {
+
+}
+.slide_prestation_v2 img {
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:6px 6px 0 0;
+}
+
+
+.slide_prestation_v2 p {
+    color:#000;
+    font-size:20px;
+    margin:5px 0;
+}
+.slide_prestation_v2 div {
+    color:#666;
+    font-size:16px;
+}
+
+/* chiffres cles */
+#index-stats {
+    background-color:#f8f8f8;
+}
+
+#index-stats .chiffres {
+    display: flex;
+    justify-content: space-evenly;
+        flex-wrap: wrap;
+}
+#index-stats .chiffres div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#index-stats .chiffres .chiffre {
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0;
+}
+#index-stats .chiffres div .chiffre:after {
+    content: "";
+    height: 32px;
+    width: 32px;
+    background-color: rgba(200,55,147,0.4);
+    position: absolute;
+    border-radius: 100px;
+    bottom: 0;
+    left: calc(50% - 16px);
+    z-index: -1;
+}
+
+#index-stats .chiffres p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+    text-transform: uppercase;
+}
+#index-stats .chiffres {
+    margin: 50px 0;
+    text-align: center;
+}
+#index-stats .chiffre {
+    font-size: 2em;
+    font-weight: bold;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+}
+#index-stats .chiffre.visible {
+    transform: scale(1);
+}
+
+@media (max-width: 580px) {
+    #index-stats .chiffres {
+        flex-direction:column;
+        gap:32px;
+    }
+}
+
+/* clients */
+#index-clients {
+
+}
+#index-clients h2 {
+    margin-bottom:16px;
+
+}
+.slide_client {
+    background-color:#f7f8f9;
+    padding:20px;
+    border-radius:5px;
+}
+
+.slide_client_entete {
+    display:flex;
+    gap:16px;
+    align-items:center; 
+    margin-bottom:8px;   
+}
+
+.slide_client_entete img {
+    border-radius:100px;
+    width:55px;
+    height:55px;
+    object-fit: cover;
+    object-position: center;    
+}
+
+.slide_client_entete h3 {
+
+}
+
+.slide_client_text {
+    color:#666;
+    text-align:justify;
+}
