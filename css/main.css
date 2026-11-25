@@ -74,7 +74,7 @@ header.header--hidden {
     padding: 56px 8%;
     position: relative;
   }
-  .header-content {
+  header .header-content {
     margin: 0 8%;
   }
 }
@@ -82,7 +82,7 @@ header.header--hidden {
   section {
     padding: 40px 5%;
   }
-  .header-content {
+  header .header-content {
     margin: 0 5%;
   }  
 }
@@ -90,8 +90,9 @@ header.header--hidden {
   section {
     padding: 30px 6%;
   }
-  .header-content {
+  header .header-content {
     margin: 0 6%;
+    padding:0!important;
   }   
 }
 
