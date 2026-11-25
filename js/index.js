@@ -5,6 +5,13 @@ $(function() {
                 autoplay: "play",
                 interval: 3000,                
                 /*type: 'loop',*/
+                breakpoints: {
+                    500: {
+                        perPage: 1,
+                        gap:0,
+                        arrows: false
+                    },
+                },                 
                 i18n: {
                 		prev: 'Précédent',
                 		next: 'Suivant',
@@ -15,32 +22,7 @@ $(function() {
                 }                        
     }).mount();
     
-    /*
-    new Splide('#index-prestations', {
-                pagination: true,
-                speed: 2000,
-                perPage: 4,
-                gap: '16px',
-                interval: 3000, 
-                arrows : false,
-                breakpoints: {
-                    800: { perPage: 2 },
-                    500: {
-                        perPage: 1,
-                        gap:0
-                    },
-                },                               
-                
-                i18n: {
-                		prev: 'Précédent',
-                		next: 'Suivant',
-                        slideX: 'Aller au diapositive %s',
-                        last : 'Aller au dernier',
-                        first : 'Aller au premier',
-                        slideLabel : '%s / %s'
-                }                        
-    }).mount(); 
-   */ 
+ 
     new Splide('#index-prestations_v2', {
                 pagination: true,
                 speed: 2000,
@@ -78,7 +60,8 @@ $(function() {
                     800: { perPage: 2 },
                     500: {
                         perPage: 1,
-                        gap:0
+                        gap:0,
+                        arrows: false
                     },
                 },                               
                 /*type: 'loop',*/
