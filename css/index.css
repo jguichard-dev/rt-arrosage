@@ -73,6 +73,10 @@
     bottom:5%;
     left:5%;
     color:#fff;
+    backdrop-filter: blur(5px);
+    display:block;
+    padding:5px 10px;
+    border-radius:5px;
 }
 
 
