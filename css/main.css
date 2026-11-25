@@ -93,7 +93,11 @@ header.header--hidden {
   header .header-content {
     margin: 0 6%;
     padding:0!important;
-  }   
+  } 
+  header .logo {
+    font-size: 24px;
+  }  
+   
 }
 
 header .header-content {
@@ -102,6 +106,7 @@ header .header-content {
     align-items: center;
     position: relative;
     padding: 8px 0;
+    gap: 16px;
     /*
     background-color:#fff;    
     border-radius:4px;
@@ -139,7 +144,7 @@ header nav.main_nav div {
 }
 header .nav-burger {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     align-items:center;
 }
 header .arrow-close .main-lvl2-nav__item {
@@ -202,7 +207,7 @@ header .logo img {
 
 header .logo {
     text-decoration:none;
-    font-size:30px;
+    font-size:24px;
     color:#333;
     font-weight:600;
 }
@@ -231,8 +236,9 @@ header .logo {
     display:block;
     
     background-position: center;
-    width:50px;
-    height:50px;  
+    width: 40px;
+        height: 40px;
+        padding-left: 0;  
      
   }
   
