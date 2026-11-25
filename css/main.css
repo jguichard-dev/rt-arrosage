@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Noto+Sans+Cypro+Minoan&display=swap');
 
 *,
 *::before,
@@ -95,7 +95,7 @@ header.header--hidden {
     padding:0!important;
   } 
   header .logo {
-    font-size: 24px;
+    font-size: 30px!important;
   }  
    
 }
@@ -207,7 +207,8 @@ header .logo img {
 
 header .logo {
     text-decoration:none;
-    font-size:24px;
+    font-family: "Baloo 2", sans-serif;
+    font-size:40px;
     color:#333;
     font-weight:600;
 }
@@ -384,8 +385,10 @@ footer a {
 }
 
 #footer_logo {
-    font-size:30px;
+    font-family: "Baloo 2", sans-serif;
+    font-size:40px;
     font-weight:600;
+    color:#fff;
 }
 
 .cols {
