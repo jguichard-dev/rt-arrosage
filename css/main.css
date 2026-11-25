@@ -86,12 +86,12 @@ header.header--hidden {
     margin: 0 5%;
   }  
 }
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   section {
-    padding: 30px 2%;
+    padding: 30px 6%;
   }
   .header-content {
-    margin: 0 2%;
+    margin: 0 6%;
   }   
 }
 
